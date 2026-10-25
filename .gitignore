@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local .terraform directories (contains architecture-specific binaries)
+**/.terraform/*
+
+# .tfstate files (contains plain-text secrets and infrastructure state)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude variable files containing sensitive data like passwords or API keys
+*.tfvars
+*.tfvars.json
+
+# Ignore override files used for local adjustments
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Optional: Ignore local plan files if you export them via 'terraform plan -out=tfplan'
+*tfplan*
+
+*.json
